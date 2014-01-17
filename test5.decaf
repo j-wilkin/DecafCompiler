@@ -1,0 +1,27 @@
+int x;
+void main()
+{
+
+	myClass q;
+	q = New(myClass);
+
+	q.setField(123);
+	Print(q.getField());
+
+        x = 13;
+        Print(x);
+
+}
+
+class myClass{
+	int a;
+
+	void setField(int x){
+		a = x;
+	}
+
+	int getField(){
+		return a;
+	}
+
+}

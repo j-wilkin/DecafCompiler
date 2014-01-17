@@ -1,0 +1,8 @@
+void main()
+{
+   string x;
+   x = "Hello World!";
+
+   Print(x);
+}
+

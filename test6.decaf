@@ -1,0 +1,28 @@
+void main()
+{
+  B a;
+  a = New(B);
+  Print(a.fact(6));
+}
+
+class A {
+  int fact(int x) 
+  { 
+    if (x == 0)
+      return 1;
+    return x * fact(x-1);
+  }
+}
+
+class B extends A {
+/*
+  int fact(int x) 
+  { 
+    if (x == 0)
+      return 0;
+    return x + fact(x-1);
+  }
+*/
+
+}
+
