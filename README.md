@@ -5,4 +5,4 @@ Uses [Flex](http://flex.sourceforge.net/manual/), [Yacc](https://cs.hamilton.edu
 
 [Decaf Language Overview and Grammar](https://parasol.tamu.edu/courses/decaf/students/decafOverview.pdf)
 
-more to come...
+Handles all control structures and expressions with multiple inheritance, scoping, and interfaces.
